@@ -75,7 +75,6 @@ private:
     QElapsedTimer m_elapsedTimer;
 };
 
-// Непрерывный ультра-плавный субпиксельный слайдер таймлайна и громкости
 class FluidClickSlider : public QWidget {
     Q_OBJECT
 public:

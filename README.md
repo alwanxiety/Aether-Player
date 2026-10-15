@@ -3,14 +3,14 @@
 Локальный аудиоплеер с приятным интерфейсом, встроенным автопоиском текстов песен и поддержкой Drag-and-Drop.
 
 <p align="center">
-  <img width="1200" height="780" alt="Снимок экрана 2026-10-15 064120" src="https://github.com/user-attachments/assets/aa94e2a2-849f-486c-b6ea-e1784520bba7" />
+  <img width="1200" height="780" alt="Снимок экрана 2026-10-15 064120" src="https://github.com/user-attachments/assets/22781de7-3589-4472-b973-8a35df8ea128" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qt6-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
-</p>
+<div align="center">
+
+<img src="https://img.shields.io/badge/PLATFORM-333333?style=for-the-badge" alt="Platform"><img src="https://img.shields.io/badge/WINDOWS-0078D6?style=for-the-badge" alt="Windows">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/C%2B%2B-333333?style=for-the-badge" alt="C++"><img src="https://img.shields.io/badge/17-00599C?style=for-the-badge" alt="17">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/QT-333333?style=for-the-badge&logo=qt&logoColor=white" alt="Qt"><img src="https://img.shields.io/badge/6-41CD52?style=for-the-badge" alt="6">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/OPENGL-333333?style=for-the-badge" alt="OpenGL"><img src="https://img.shields.io/badge/3.3%2B-5586A4?style=for-the-badge" alt="3.3+">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/AUDIO-MINIAUDIO-orange?style=for-the-badge" alt="miniaudio">
+
+</div>
 
 ## ✨ Основные фичи
 * **Динамическая тема:** Интерфейс на лету подстраивается под цветовую гамму обложки играющего трека.
@@ -27,6 +27,11 @@
 * Некоторые графические баги, такие как неправильно отображение обложки при отсуствующем активном треке.
 
 > *Все эти проблемы будут полностью исправлены в ближайших обновлениях.*
+
+---
+
+### 📝 Используемые компоненты
+* [miniaudio](https://github.com/mackron/miniaudio) — легковесная библиотека для работы со звуком в реальном времени.
 
 ---
 
