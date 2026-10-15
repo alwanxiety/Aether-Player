@@ -9,21 +9,23 @@ set(CMAKE_AUTOUIC ON)
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Multimedia Network Concurrent OpenGL OpenGLWidgets)
 
 set(SOURCES
-        main.cpp
-        AudioTrack.h
-        Widgets.h
-        Widgets.cpp
-        Workers.h
-        Workers.cpp
-        LiquidGlassPlayer.h
-        LiquidGlassPlayer.cpp
-        miniaudio.h
-        SmtcManager.h
-        SmtcManager.cpp
-        DlnaCastService.h
-        DlnaCastService.cpp
+        src/main.cpp
+        src/AudioTrack.h
+        src/Widgets.h
+        src/Widgets.cpp
+        src/Workers.h
+        src/Workers.cpp
+        src/LiquidGlassPlayer.h
+        src/LiquidGlassPlayer.cpp
+        src/miniaudio.h
+        src/SmtcManager.h
+        src/SmtcManager.cpp
+        src/DlnaCastService.h
+        src/DlnaCastService.cpp
 )
 add_executable(AetherPlayer WIN32 ${SOURCES})
+target_include_directories(AetherPlayer PRIVATE src)
+
 target_link_libraries(AetherPlayer PRIVATE
         Qt6::Core
         Qt6::Gui
